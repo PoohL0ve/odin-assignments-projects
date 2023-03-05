@@ -1,0 +1,205 @@
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+/* Header styling: used "text-decoration and list-style type"*/
+.darkblue {
+    color: #faf9f8;
+    background: #1F2937;
+    width: 100%;
+}
+
+header, .attention {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: auto;
+    padding: 12px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 48px;
+    padding: 0 42px;
+    
+}
+
+.links {
+    display:flex;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 36px;
+    padding: 0 22px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: light;
+    text-decoration: none;
+    margin: 0 20px;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: rgb(240, 154, 42);
+    background: black;
+    font-size: 22px;
+}
+/* End of Header Styling */
+
+/*Section 1 styling text and an image using flexbox */
+
+
+img.sizing {
+    width: 400px;
+    height: 15em;   
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p.statement {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0%;
+    
+}
+
+button {
+    display: inline-block;
+    padding: 8px 25px;
+    color: #E5E7EB;
+    background: #3882F6;
+    border-radius: 10px;
+    border: #3882F6;
+    text-align: center;
+}
+
+button:hover {
+    background: #E5E7EB;
+    color:#3882F6;
+    font-weight: bold;
+}
+
+.toppings, .hello {
+    width: 450px;
+    height: 20em;
+    padding-left: 12px;    
+}
+.hello {
+    padding-top: 7px;
+    padding-right: 24px;
+    
+}
+
+.toppings {
+    padding-left: 6em;
+}
+
+
+.attention {
+    justify-content: center;
+    flex: auto;
+}
+
+
+
+/* Section = benefits */
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;   
+}
+
+img.squares {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.mix {
+    width: 220px;
+    height: 400px;
+    margin: 7px;
+}
+
+div.mix > p {
+    padding: 2px;
+    padding-right: 8px;
+    text-align: center;
+}
+    
+.benefitsflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 10px;
+}
+
+/* Section testimony */
+
+.beautyof {
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 12px;
+}
+
+.french {
+    width: 65%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.dani {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: end;
+    margin-right: 220px;
+}
+
+/*lastlap using flex again */
+.funny {
+    padding: 25px;
+}
+
+.lastlap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    color: #faf9f8;
+    font-size: 20px;
+    width: 75%;
+    margin: 0 auto;
+    padding:12px;
+}
+h3 {
+    margin-bottom: 0px;
+}
+
+.tryfree {
+    margin-top: 0%;
+}
+
+.exploreme {
+    border: 2px solid white;
+}
+/* footer */
+ footer > p {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+ }
