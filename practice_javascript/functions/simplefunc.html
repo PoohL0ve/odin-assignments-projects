@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="PoohLove">
+        <meta name="description" content="Using Functions is JavaScript">
+        <meta name="keywords" content="Using JavaScript functions to add, multiply, substract and divide. Simple math functions.">
+
+        <title>Simple Functions in JavaScript</title>
+    </head>
+    <body>
+        <h1>Using Functions in JavaScript</h1>
+        <p>The scripts are used for addition, mutliplication, division and substraction.<br>
+        They are executed within the console.</p>
+
+        <script>
+
+            //use add7 as a function name that adds 7 to any number.
+            function add7() {
+                let anyNumber = Number(prompt("Enter a number"));
+                let added7 = anyNumber + 7;
+                return added7;
+            }
+            console.log(add7());
+
+            //multiply any two numbers and return their product.
+            let number1 = Number(prompt("Enter a random number"));
+            let number2 = Number(prompt("Let's multiply that number by:"));
+            function multiply(number1, number2) {
+                let product = number1 * number2;
+                return product;
+            }
+            console.log(multiply(number1, number2));
+
+            //return the first letter of a string capitalized
+            let tell = prompt("Tell me something");
+            function capitalized(tell) {
+                let toldMe = tell.charAt(0).toUpperCase() + tell.slice(1);
+                return toldMe;
+            }
+            console.log(capitalized(tell));
+
+            //return the last letter of a string
+            let yourLine = prompt("What's your best line");
+            function lastLetter(yourLine) {
+                let finalStr = yourLine.slice(-1);
+                return finalStr;
+            }
+            console.log(lastLetter(yourLine));
+        </script>
+    </body>
+</html>
